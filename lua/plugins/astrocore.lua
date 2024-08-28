@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
@@ -29,9 +27,30 @@ return {
       opt = { -- vim.opt.<key>
         relativenumber = true, -- sets vim.opt.relativenumber
         number = true, -- sets vim.opt.number
-        spell = false, -- sets vim.opt.spell
+        spell = true, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+
+        tabstop = 4,
+        softtabstop = 4,
+        shiftwidth = 4,
+        expandtab = true,
+
+        swapfile = false,
+        backup = false,
+        undodir = os.getenv("HOME") .. "/.vim/undodir",
+        undofile = true,
+
+        hlsearch = false,
+        incsearch = true,
+
+        scrolloff = 8,
+        signcolumn = "yes",
+        isfname:append("@-@"),
+
+        updatetime = 50,
+
+        colorcolumn = "80"
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
@@ -44,6 +63,10 @@ return {
     mappings = {
       -- first key is the mode
       n = {
+        ["<leader>x"] = { "<cmd> !chmod +x %<CR>" },
+        ["Q"] = { "<nop>" },
+        ["<Leader>d"] = { '"_d' }
+
         -- second key is the lefthand side of the map
 
         -- navigate buffer tabs
@@ -59,6 +82,15 @@ return {
           end,
           desc = "Close buffer from tabline",
         },
+        v = {
+          ["J"] = { ":m '>+1<CR>gv=gv" },
+          ["K"] = { ":m '<-2<CR>gv=gv" },
+          ["<leader>y"] = { '"+y' },
+          ["<Leader>d"] = { '"_d' }
+        },
+        x = {
+          ["<leader>p"] = { '"_dP' },
+        }
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
