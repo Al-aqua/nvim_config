@@ -38,19 +38,17 @@ return {
 
         swapfile = false,
         backup = false,
-        undodir = os.getenv("HOME") .. "/.vim/undodir",
+        undodir = os.getenv "HOME" .. "/.vim/undodir",
         undofile = true,
 
         hlsearch = false,
         incsearch = true,
 
         scrolloff = 8,
-        signcolumn = "yes",
-        isfname:append("@-@"),
 
         updatetime = 50,
 
-        colorcolumn = "80"
+        colorcolumn = "80",
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
@@ -65,7 +63,7 @@ return {
       n = {
         ["<leader>x"] = { "<cmd> !chmod +x %<CR>" },
         ["Q"] = { "<nop>" },
-        ["<Leader>d"] = { '"_d' }
+        ["<Leader>d"] = { '"_d', desc = "Delete without yanking" },
 
         -- second key is the lefthand side of the map
 
@@ -82,22 +80,20 @@ return {
           end,
           desc = "Close buffer from tabline",
         },
-        v = {
-          ["J"] = { ":m '>+1<CR>gv=gv" },
-          ["K"] = { ":m '<-2<CR>gv=gv" },
-          ["<leader>y"] = { '"+y' },
-          ["<Leader>d"] = { '"_d' }
-        },
-        x = {
-          ["<leader>p"] = { '"_dP' },
-        }
-
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+      },
+      v = {
+        ["J"] = { ":m '>+1<CR>gv=gv", desc = "Move line down" },
+        ["K"] = { ":m '<-2<CR>gv=gv", desc = "Move line up" },
+        ["<Leader>d"] = { '"_d', desc = "Delete without yanking" },
+      },
+      x = {
+        ["<leader>p"] = { '"_dP', desc = "Paste without yanking" },
       },
     },
   },
