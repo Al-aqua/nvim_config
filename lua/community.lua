@@ -20,6 +20,9 @@ return {
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.nordic-nvim" },
+  { import = "astrocommunity.colorscheme.eldritch-nvim" },
+  { import = "astrocommunity.colorscheme.aurora" },
+  { import = "astrocommunity.colorscheme.gruvbox-baby" },
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.editing-support.undotree" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
@@ -29,6 +32,7 @@ return {
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.zig" },
+  { import = "astrocommunity.pack.python" },
 
   -- import/override with your plugins folder
 }
