@@ -25,7 +25,7 @@ return {
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.editing-support.undotree" },
-  { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.cpp" },
@@ -33,6 +33,7 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.zig" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.prisma" },
 
   -- import/override with your plugins folder
 }
