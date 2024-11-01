@@ -23,6 +23,7 @@ return {
   { import = "astrocommunity.colorscheme.eldritch-nvim" },
   { import = "astrocommunity.colorscheme.aurora" },
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
+  { import = "astrocommunity.colorscheme.oldworld-nvim" },
   { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.editing-support.undotree" },
   { import = "astrocommunity.pack.typescript" },
