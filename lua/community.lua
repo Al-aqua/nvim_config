@@ -24,6 +24,8 @@ return {
   { import = "astrocommunity.colorscheme.aurora" },
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
   { import = "astrocommunity.colorscheme.oldworld-nvim" },
+  { import = "astrocommunity.colorscheme.poimandres-nvim" },
+  { import = "astrocommunity.colorscheme.horizon-nvim" },
   -- { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.completion.supermaven-nvim" },
   { import = "astrocommunity.editing-support.undotree" },
