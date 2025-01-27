@@ -64,6 +64,7 @@ return {
         ["<leader>x"] = { "<cmd> !chmod +x %<CR>" },
         ["Q"] = { "<nop>" },
         ["<Leader>d"] = { '"_d', desc = "Delete without yanking" },
+        ["<leader>fl"] = { "<cmd> :Telescope flutter commands<CR>", desc = "Flutter commands" },
 
         -- second key is the lefthand side of the map
 

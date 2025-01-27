@@ -30,7 +30,6 @@ return {
   { import = "astrocommunity.completion.supermaven-nvim" },
   { import = "astrocommunity.editing-support.undotree" },
   { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.cmake" },
