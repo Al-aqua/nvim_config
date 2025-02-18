@@ -14,7 +14,6 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.html-css" },
-  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.colorscheme.nightfox-nvim" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.colorscheme.everforest" },
@@ -24,7 +23,6 @@ return {
   { import = "astrocommunity.colorscheme.aurora" },
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
   { import = "astrocommunity.colorscheme.oldworld-nvim" },
-  { import = "astrocommunity.colorscheme.poimandres-nvim" },
   { import = "astrocommunity.colorscheme.horizon-nvim" },
   -- { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.completion.supermaven-nvim" },
@@ -35,8 +33,8 @@ return {
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.zig" },
-  { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.prisma" },
+  { import = "astrocommunity.pack.hyprlang" },
+  { import = "astrocommunity.pack.sql" },
 
   -- import/override with your plugins folder
 }
