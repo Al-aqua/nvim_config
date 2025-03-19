@@ -24,6 +24,10 @@ return {
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
   { import = "astrocommunity.colorscheme.oldworld-nvim" },
   { import = "astrocommunity.colorscheme.horizon-nvim" },
+  { import = "astrocommunity.colorscheme.oxocarbon-nvim" },
+  { import = "astrocommunity.colorscheme.miasma-nvim" },
+  { import = "astrocommunity.colorscheme.bamboo-nvim" },
+  { import = "astrocommunity.colorscheme.bamboo-nvim" },
   -- { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.completion.supermaven-nvim" },
   { import = "astrocommunity.editing-support.undotree" },
@@ -35,6 +39,7 @@ return {
   { import = "astrocommunity.pack.zig" },
   { import = "astrocommunity.pack.hyprlang" },
   { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.laravel" },
 
   -- import/override with your plugins folder
 }
