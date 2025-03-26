@@ -14,7 +14,7 @@ return {
     highlights = {
       init = { -- this table overrides highlights in all themes
         -- Normal = { bg = "#000000" },
-        Normal = { guibg = NONE },
+        -- Normal = { guibg = NONE },
         -- NormalFloat = { guibg = NONE },
         NotifyBackground = { bg = "#000000" },
       },

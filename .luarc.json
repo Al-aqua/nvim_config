@@ -1,5 +1,6 @@
 {
     "diagnostics.globals": [
-        "transparent_background"
+        "transparent_background",
+        "NONE"
     ]
 }
