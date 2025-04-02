@@ -30,6 +30,7 @@ return {
   -- { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.completion.supermaven-nvim" },
   { import = "astrocommunity.editing-support.undotree" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.cpp" },
@@ -39,6 +40,12 @@ return {
   { import = "astrocommunity.pack.hyprlang" },
   { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.pack.laravel" },
+  { import = "astrocommunity.editing-support.yanky-nvim" },
+  { import = "astrocommunity.icon.mini-icons" },
+  { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.indent.mini-indentscope" },
+  { import = "astrocommunity.comment.mini-comment" },
+  { import = "astrocommunity.completion.cmp-spell" },
 
   -- import/override with your plugins folder
 }
